@@ -1,0 +1,29 @@
+{
+  "name": "petify-frontend",
+  "version": "1.0.0",
+  "description": "Petify Shopify storefront",
+  "type": "module",
+  "scripts": {
+    "dev": "shopify hydrogen dev",
+    "build": "shopify hydrogen build",
+    "preview": "shopify hydrogen preview",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx src/",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "dependencies": {
+    "@shopify/hydrogen": "^2023.10.0",
+    "@shopify/remix-oxygen": "^2.0.0",
+    "@remix-run/react": "^2.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@shopify/cli": "^3.50.0",
+    "@shopify/cli-hydrogen": "^6.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.3.0",
+    "vite": "^5.0.0"
+  }
+}
